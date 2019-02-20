@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>My Survey | Welcome</title>
+  <link name="viewport" content="device=width-device" rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+  <div>
+    <h1 id="title"> <u>My Survey</u></h1>
+  </div>
+  <div id="container">
+    <p id="description"> What should education be based on?</p>
+    <form id="survey-form">
+      <label for="name " id="name-label"> What's Your Name? </label>
+      <input id="name" type="text" placeholder="Enter Name Please." required>
+      <button id="submit" type="submit" name="submit">Submit</button><br>
+      <label for="email" id="email-label"> What's Your Email? </label>
+      <input id="email" type="email" placeholder="Enter your email please" required>
+      <button id="submit" type="submit" name="submit">Submit</button><br>
+      <label for="number" id="number-label"> What's Your Number? </label>
+      <input id="number" type="number" placeholder="Enter your phone number?" min="10" max="11" required>
+      <button id="submit" type="submit" name="submit">Submit</button><br>
+      <label for="fav-school-subjects">What was your favourate subject in school</label>
+      <select id="dropdown" name="subjects">
+        <option value="Maths">Maths</option>
+        <option value="Art">Art</option>
+        <option value="Science">Science</option>
+        <option value="English">English</option>
+      </select>
+      <input type="submit" value="Submit"><br>
+      <label for="radio"></label>
+      <input type="radio" name="radio" value="Yes">Yes
+      <input type="radio" name="radio" value="No">No
+      <input type="radio" name="radio" value="Other">Ohter
+      <button id="submit" type="submit" name="submit">Submit</button> <br>
+      <label for="">Checkbox</label>
+      <input type="checkbox" name="" value="1">
+      <input type="checkbox" name="" value="1">
+      <input type="checkbox" name="" value="1">
+      <input type="checkbox" name="" value="1">
+      <input type="checkbox" name="" value="1">
+      <input type="checkbox" name="" value="1">
+      <input type="checkbox" name="" value="1">
+      <button id="submit" type="submit" name="submit">Submit</button><br>
+
+      <textarea name="name" rows="6" cols="40"> Please add any additional comments here</textarea>
+      <button id="submit" type="submit" name="submit">Submit</button>
+    </form>
+  </div>
+</body>
+
+</html>
