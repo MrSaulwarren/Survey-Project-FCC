@@ -1,8 +1,13 @@
-html, body {
-  background-color: #7ed3b2;
-  font-family: Trajan;
-  margin: 20px 100px 0 100px;
-}
+html,
+body {
+    background-color: #f3a333;
+    font-family: Helvetica, sans-serif, Trajan;
+    font-weight: 700;
+    margin: 20px 100px 0 100px;
+    max-width: 100%;
+    text-align: center;
+    overflow: hidden;
+  }
 
 #title, #description {
   text-align: center;
@@ -14,18 +19,19 @@ html, body {
 }
 
 #description {
-  font-family: Times New Roman;
+  font-family: monospace;
   font-weight: bold;
   font-size: 1.6rem;
   border-bottom: solid;
   padding: 10px;
-  margin: 0
+  margin: 0;
 }
 
 #container {
-  background-color: #b9e6d3;
+  background-color: #fffe9a;
   border: solid 1.2px;
   margin: 0;
   padding: 0;
-  box-shadow: 5px 50px 100px
+  box-shadow: 5px 50px 100px;
+  
 }
