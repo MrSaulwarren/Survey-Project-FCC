@@ -1,40 +1,73 @@
 html,
 body {
-background-color: #f3a333;
-font-family: Helvetica, sans-serif, Trajan;
-font-weight: 700;
-margin: 20px 100px 0 100px;
-max-width: 100%;
+background-color:#f3a333;
+font-family:Helvetica, sans-serif, Trajan;
+font-weight:700;
+margin:20px 100px 0 100px;
+max-width:100%;
 text-align: center;
 overflow: hidden;
+padding:0;
+
 }
 
 #h1-title {
-font-family: Verdana;
-margin-bottom: 50px;
+font-family:Verdana;
+margin-bottom:50px;
+padding:0;
 }
 
 #p-description {
-font-family: monospace;
-font-weight: bold;
-font-size: 1.6rem;
-border-bottom: solid;
-padding: 10px;
-margin: 0;
+font-family:monospace;
+font-weight:bold;
+font-size:1.6rem;
+border-bottom:solid;
+padding:10px;
+margin:1px;
 }
 
 #main-container {
-background-color: #fffe9a;
+background-color:#fffe9a;
 border: solid 1.2px;
-margin: 0;
-padding: 0;
+margin:1px;
+padding:1px;
 box-shadow: 5px 50px 100px;
 }
 
 .labels-container {
-display: inline-block;
+margin:5px;
+padding: 5px;
+width:40%
 }
 
 .inputs-container {
-display: inline-block;
+margin:0;
+padding:0;
+width:100%
+}
+
+.inputs {
+margin:0;
+padding:0;
+}
+
+#name-label {
+float:left;
+clear;
+position: relative;
+left:38%;
+}
+
+#email-label {
+float:left;
+clear;
+position: relative;
+left:38%;
+}
+
+#number-label {
+float:left;
+clear;
+position: relative;
+left:38%;
 }
