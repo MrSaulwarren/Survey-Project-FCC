@@ -14,15 +14,26 @@
   <div id="container">
     <p id="description"> What should education be based on?</p>
     <form id="survey-form">
-      <label for="name" id="name-label">~ Your Name</label>
-      <input id="name" type="text" placeholder="Enter Name" required>
-      <br>
-      <label for="email" id="email-label">~ Your Email</label>
-      <input id="email" type="email" placeholder="Enter Email..." required>
-      <br>
-      <label for="number" id="number-label">~ Your Number</label>
-      <input id="number" type="number" placeholder="Enter Name..." min="10" max="11" required>
-      <br>
+      <div>
+        <div class="label.container">
+          <label for="name" id="name-label">~ Your Name</label>
+        </div>
+        <div class="input.containter">
+          <input id="name" class="inputs" type="text" placeholder="Enter Name" required>
+        </div>
+        <div class="label.container">
+          <label for="email" id="email-label">~ Your Email</label>
+        </div>
+        <div class="input.containter">
+          <input id="email" class="inputs" type="email" placeholder="Enter Email..." required>
+        </div>
+        <div class="label.containter">
+          <label for="number" id="number-label">~ Your Number</label>
+        </div>
+        <div class="input.containter">
+          <input id="number" class="inputs" type="number" placeholder="Enter Name..." min="10" max="11" required>
+        </div>
+      </div>
       <label for="fav-school-subjects">What was your favourate subject in school</label>
       <select id="dropdown" name="subjects">
         <option value="Maths">Maths</option>

@@ -1,37 +1,37 @@
 html,
 body {
-    background-color: #f3a333;
-    font-family: Helvetica, sans-serif, Trajan;
-    font-weight: 700;
-    margin: 20px 100px 0 100px;
-    max-width: 100%;
-    text-align: center;
-    overflow: hidden;
-  }
+background-color: #f3a333;
+font-family: Helvetica, sans-serif, Trajan;
+font-weight: 700;
+margin: 20px 100px 0 100px;
+max-width: 100%;
+text-align: center;
+overflow: hidden;
+}
 
-#title, #description {
-  text-align: center;
+#title,
+#description {
+text-align: center;
 }
 
 #title {
-  font-family: Verdana;
-  margin-bottom: 50px;
+font-family: Verdana;
+margin-bottom: 50px;
 }
 
 #description {
-  font-family: monospace;
-  font-weight: bold;
-  font-size: 1.6rem;
-  border-bottom: solid;
-  padding: 10px;
-  margin: 0;
+font-family: monospace;
+font-weight: bold;
+font-size: 1.6rem;
+border-bottom: solid;
+padding: 10px;
+margin: 0;
 }
 
 #container {
-  background-color: #fffe9a;
-  border: solid 1.2px;
-  margin: 0;
-  padding: 0;
-  box-shadow: 5px 50px 100px;
-  
+background-color: #fffe9a;
+border: solid 1.2px;
+margin: 0;
+padding: 0;
+box-shadow: 5px 50px 100px;
 }
