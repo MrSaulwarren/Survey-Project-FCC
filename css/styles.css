@@ -7,12 +7,16 @@ min-width:400px;
 text-align: center;
 overflow: hidden;
 padding:0;
+}
 
+ul {
+  padding-left:30px;
+  list-style-type: none;
 }
 
 #h1-title {
 font-family:Verdana;
-margin-bottom:50px;
+margin:15px 15px;
 padding:0;
 }
 
@@ -28,7 +32,6 @@ margin-top:15px;
 #main-container {
 background-color:#fffe9a;
 border:solid 1.2px;
-padding:1px;
 box-shadow:5px 50px 100px;
 margin:0 auto;
 max-width:1000px;
@@ -39,19 +42,32 @@ width:80%;
 display:inline-block;
 padding:5px;
 margin-top:5px;
-width:20%;
-text-align: right;
+width:25%;
 vertical-align: top;
+text-align: right;
+}
 
-
+#Fav-container {
+width:40%;
+display:inline-block;
+text-align: left;
 }
 
 .inputs-container {
 display:inline-block;
-padding:0;
+padding:5px;
 margin:0;
 width:32%;
 text-align: left;
+}
+
+.FavSub {
+padding:5px;
+margin:5px;
+}
+
+.fab-subjects {
+height: 100px;
 }
 
 .inputs {
@@ -60,24 +76,14 @@ padding:5px;
 width:200px;
 }
 
-#name-label {
-padding:0;
-}
-
-#email-label {
-padding:0;
-margin:0;
-}
-
-#number-label {
-padding:0;
-margin:0;
-}
-
 #number {
 width:30%
 }
 
 .select {
 display: inline-block;
+}
+
+.checkbox {
+  display:inline-block;
 }
