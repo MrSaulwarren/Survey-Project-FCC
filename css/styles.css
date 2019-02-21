@@ -1,40 +1,75 @@
 html,
 body {
-background-color: #f3a333;
-font-family: Helvetica, sans-serif, Trajan;
-font-weight: 700;
-margin: 20px 100px 0 100px;
-max-width: 100%;
+background-color:#f3a333;
+font-family:Helvetica, sans-serif;
+font-weight:700;
+min-width:400px;
 text-align: center;
 overflow: hidden;
 }
 
 #h1-title {
-font-family: Verdana;
-margin-bottom: 50px;
+font-family:Verdana;
+margin-bottom:50px;
+padding:0;
 }
 
 #p-description {
-font-family: monospace;
-font-weight: bold;
-font-size: 1.6rem;
-border-bottom: solid;
-padding: 10px;
-margin: 0;
+font-family:monospace;
+font-weight:bold;
+font-size:1.6rem;
+border-bottom:solid;
+padding:10px 0 10px 0;
+margin-top:15px;
 }
 
 #main-container {
-background-color: #fffe9a;
-border: solid 1.2px;
-margin: 0;
-padding: 0;
-box-shadow: 5px 50px 100px;
+background-color:#fffe9a;
+border:solid 1.2px;
+margin:1px;
+padding:1px;
+box-shadow:5px 50px 100px;
+margin:0 auto;
+max-width:1000px;
+width:80%;
 }
 
 .labels-container {
-display: inline-block;
+display:inline-block;
+padding:5px;
+margin-top:5px;
+width:20%;
+text-align: right;
+vertical-align: top;
+
+
 }
 
 .inputs-container {
-display: inline-block;
+display:inline-block;
+padding:0;
+margin:0;
+width:20%;
+text-align: left;
+}
+
+.inputs {
+margin:5px;
+padding:5px;
+width:200px;
+display:block;
+}
+
+#name-label {
+padding:0;
+}
+
+#email-label {
+padding:0;
+margin:0;
+}
+
+#number-label {
+padding:0;
+margin:0;
 }
