@@ -20,7 +20,7 @@
       Float to solve the issue, but perservered to understand and see the problems.
       Display: inline-block works!!
       -->
-      <div class=sub-container-3>
+      <div class="sub-main-container">
         <div class="labels-container">
           <label for="name" id="name-label">~ Name</label>
         </div>
@@ -28,35 +28,58 @@
           <input id="name" class="inputs" type="text" placeholder="Enter Name..." required><br>
         </div>
       </div>
-      <div class="sub-container-2">
+      <div class="sub-main-container">
         <div class="labels-container">
           <label for="email" id="email-label">~ Email</label>
         </div>
         <div class="inputs-container">
           <input id="email" class="inputs" type="email" placeholder="Enter Email..." required><br>
         </div>
-        <div class="sub-container-3">
+        <div class="sub-main-container">
           <div class="labels-container">
             <label for="number" id="number-label">~ age</label>
           </div>
           <div class="inputs-container">
-            <input id="number" class="inputs" type="number" placeholder="Enter age..." min="10" max="11" required><br>
+            <input id="number" class="inputs" type="number" placeholder="Enter age..." min="4" max="100" required><br>
           </div>
         </div>
       </div>
-      <label for="fav-school-subjects">What was your favourate subject in school</label>
-      <select id="dropdown" name="subjects">
+
+    <div>
+      <div Class="labels-container">
+        <label for="fav-school-subjects">What was or is your favourate subject in school?</label>
+      </div>
+      <div class="select">
+        <select id="dropdown" name="subjects">
         <option value="Maths">Maths</option>
         <option value="Art">Art</option>
         <option value="Science">Science</option>
         <option value="English">English</option>
+        <option value="R.E">R.E</option>
+        <option value="History">History</option>
+        <option value="Philosophy">Philosophy</option>
+        <option value="P.E">P.E</option>
+        <option value="Psyhcology">Psyhcology</option>
       </select>
-      <input type="submit" value="Submit"><br>
+      </div>
+    </div>
+      <div>
+        <div class="labels-container">
+          <label id="purpose" for="purpose">Were you encouraged to pursue a profession after
+             Education based on your aptitude for and interests in subjects during school?</label>
+        </div>
+        <div class="inputs-container">
+          <ul>
+            <li><input type="radio" name="radio" value="Yes">Yes</li>
+            <li><input type="radio" name="radio" value="Yes">No</li>
+          </ul>
+        </div>
+      </div>
+
       <label for="radio"></label>
       <input type="radio" name="radio" value="Yes">Yes
       <input type="radio" name="radio" value="No">No
       <input type="radio" name="radio" value="Other">Ohter
-      <br>
       <label for="">Checkbox</label>
       <input type="checkbox" name="" value="1">
       <input type="checkbox" name="" value="1">
@@ -65,7 +88,7 @@
       <input type="checkbox" name="" value="1">
       <input type="checkbox" name="" value="1">
       <input type="checkbox" name="" value="1">
-      <br>
+      
 
       <textarea name="name" rows="6" cols="40"> Please add any additional comments here</textarea>
       <button id="submit" type="submit" name="submit">Submit</button>
