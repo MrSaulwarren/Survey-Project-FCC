@@ -9,17 +9,12 @@ text-align: center;
 overflow: hidden;
 }
 
-#title,
-#description {
-text-align: center;
-}
-
-#title {
+#h1-title {
 font-family: Verdana;
 margin-bottom: 50px;
 }
 
-#description {
+#p-description {
 font-family: monospace;
 font-weight: bold;
 font-size: 1.6rem;
@@ -28,10 +23,18 @@ padding: 10px;
 margin: 0;
 }
 
-#container {
+#main-container {
 background-color: #fffe9a;
 border: solid 1.2px;
 margin: 0;
 padding: 0;
 box-shadow: 5px 50px 100px;
+}
+
+.labels-container {
+display: inline-block;
+}
+
+.inputs-container {
+display: inline-block;
 }
