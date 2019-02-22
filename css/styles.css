@@ -3,15 +3,15 @@ body {
 background-color:#f3a333;
 font-family:Helvetica, sans-serif;
 font-weight:700;
-min-width:400px;
+min-width:360px;
+min-height:640px;
 text-align: center;
-overflow: hidden;
 padding:0;
 }
 
 ul {
-  padding-left:30px;
-  list-style-type: none;
+padding-left:30px;
+list-style-type: none;
 }
 
 #h1-title {
@@ -48,9 +48,21 @@ text-align: right;
 }
 
 #Fav-container {
-width:40%;
+width:43%;
+height:40px;
 display:inline-block;
-text-align: left;
+text-align:left;
+vertical-align: bottom;
+position: relative;
+top: 20px;
+}
+
+.container-x {
+display: inline-block;
+padding: 5px;
+margin-top: 5px;
+width: 50%;
+vertical-align: top;
 }
 
 .inputs-container {
@@ -62,8 +74,7 @@ text-align: left;
 }
 
 .FavSub {
-padding:5px;
-margin:5px;
+
 }
 
 .fab-subjects {
@@ -80,8 +91,14 @@ width:200px;
 width:30%
 }
 
-.select {
+#dropdown {
+width:95px;
+display: inline;
+}
+
+#select {
 display: inline-block;
+margin-top: 10px;
 }
 
 .checkbox {
