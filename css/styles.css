@@ -12,6 +12,13 @@ padding:0;
 ul {
 padding-left:30px;
 list-style-type: none;
+margin-left: 0;
+padding-left: 3em;
+}
+
+li {
+  padding:5px;
+  vertical-align: middle;
 }
 
 #h1-title {
@@ -48,13 +55,13 @@ text-align: right;
 }
 
 #Fav-container {
-width:43%;
 height:40px;
 display:inline-block;
 text-align:left;
 vertical-align: bottom;
 position: relative;
 top: 20px;
+right: 70px;
 }
 
 .container-x {
@@ -94,6 +101,8 @@ width:30%
 #dropdown {
 width:95px;
 display: inline;
+position: relative;
+right: 50px
 }
 
 #select {
