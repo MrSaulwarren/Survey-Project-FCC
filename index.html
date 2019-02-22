@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
+
 <head>
   <meta charset="utf-8">
   <title>My Survey | Welcome</title>
-  <link name="viewport" content="device=width-device" rel="stylesheet" href="./css/styles.css">
+<link name="viewport" content="device=width-device" rel="stylesheet" href="./css/styles.css">
 </head>
+
 <body>
   <div>
     <h1 id="h1-title"><u>Survey Form</u></h1>
@@ -44,27 +46,25 @@
       </div>
       <div class="fab-subjects">
         <div id="Fav-container">
-          <label class="FavSub"for="fav-school-subjects">What was or is your favourate subject in school?</label>
+          <label class="FavSub" for="fav-school-subjects">What was or is your favourate subject in school?</label>
         </div>
-
-          <select id="dropdown" name="subjects">
-            <option value="Maths">Maths</option>
-            <option value="Art">Art</option>
-            <option value="Science">Science</option>
-            <option value="English">English</option>
-            <option value="R.E">R.E</option>
-            <option value="History">History</option>
-            <option value="Philosophy">Philosophy</option>
-            <option value="P.E">P.E</option>
-            <option value="Psyhcology">Psyhcology</option>
-          </select>
-
+        <select id="dropdown" name="subjects">
+          <option value="Maths">Maths</option>
+          <option value="Art">Art</option>
+          <option value="Science">Science</option>
+          <option value="English">English</option>
+          <option value="R.E">R.E</option>
+          <option value="History">History</option>
+          <option value="Philosophy">Philosophy</option>
+          <option value="P.E">P.E</option>
+          <option value="Psyhcology">Psyhcology</option>
+        </select>
       </div>
       <div>
         <div class="container-x ">
           <label id="purpose" for="purpose">Were you encouraged to pursue a profession after
             Education based on your aptitude for and interests in subjects during school?</label>
-         </div>
+        </div>
         <div class="inputs-container">
           <ul>
             <li><input type="radio" name="radio" value="Yes">Yes</li>
@@ -78,22 +78,26 @@
         <p style="text-align: right">Tick all that apply...</p>
       </div>
       <div class="inputs-container">
-      <ul>
-        <label class="checkbox" for="CheckBox"> Checkbox</label>
-        <li><input type="checkbox" name="parents" value="a"> Parent Engagement.</li>
-        <li><label><input type="checkbox" name="teachers" value="b">Support from Teachers.</label></li>
-        <li><label><input type="checkbox" name="purpose" value="g">realizing your purpose.<label><li>
-        <li><label><input type="checkbox" name="students" value="c">knowing students future plans.<label></li>
-        <li><label><input type="checkbox" name="resources" value="d">Knowing what a career means.<label></li>
-        <li><label><input type="checkbox" name="interests" value="e">Understanding your interests.<label></li>
-        <li><label><input type="checkbox" name="talents" value="f">discovering your talents.<label></li>
-      </ul>
+        <ul>
+          <label class="checkbox" for="CheckBox"> Checkbox</label>
+          <li><input type="checkbox" name="parents" value="a"> Parent Engagement.</li>
+          <li><label><input type="checkbox" name="teachers" value="b">Support from Teachers.</label></li>
+          <li><label><input type="checkbox" name="purpose" value="g">realizing your purpose.<label>
+          <li>
+          <li><label><input type="checkbox" name="students" value="c">knowing students future plans.<label></li>
+          <li><label><input type="checkbox" name="resources" value="d">Knowing what a career means.<label></li>
+          <li><label><input type="checkbox" name="interests" value="e">Understanding your interests.<label></li>
+          <li><label><input type="checkbox" name="talents" value="f">discovering your talents.<label></li>
+        </ul>
       </div>
       <div>
-      <textarea name="name" rows="6" cols="40"> Please add any additional comments here</textarea>
-        <button id="submit" type="submit" name="submit">Submit</button>
+        <p class="addmore">Please add any additional info</p>
+        <div>
+          <textarea class="terarea" name="name" rows="6" cols="40">comment here...</textarea>
+          <button id="submit" class="terasubmit" type="submit" name="submit">Submit</button>
       </div>
     </form>
   </div>
 </body>
+
 </html>
